@@ -1,10 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Heading from "../components/Heading";
-import Input from "../components/inputs/Input";
+import Heading from "../../components/Heading";
+import Input from "../../components/inputs/Input";
 import { FieldValues, useForm, SubmitHandler } from "react-hook-form";
-import Button from "../components/products/Button";
+import Button from "../../components/products/Button";
 import Link from "next/link";
 import { AiOutlineGoogle } from "react-icons/ai";
 import axios from "axios";
