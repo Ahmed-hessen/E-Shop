@@ -1,10 +1,10 @@
-export const revalidate = 0;
-
 import Container from "./components/Container";
 import HomeBanner from "./components/HomeBanner";
 import ProductCard from "./components/products/ProductCard";
 import getProducts, { IproductParams } from "@/actions/getProducts";
 import NullData from "./components/NullData";
+
+export const revalidate = 0;
 
 interface HomeProps {
   searchParams: IproductParams;

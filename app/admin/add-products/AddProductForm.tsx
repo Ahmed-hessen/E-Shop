@@ -1,5 +1,4 @@
 "use client";
-
 import Heading from "@/app/components/Heading";
 import CategoryInput from "@/app/components/inputs/CategoryInput";
 import CustomCheckBox from "@/app/components/inputs/CustomCheckBox";

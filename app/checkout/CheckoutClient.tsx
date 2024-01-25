@@ -23,8 +23,8 @@ export default function CheckoutClient() {
 
   const router = useRouter();
 
-  console.log("paymentIntent", paymentIntent);
-  console.log("clientSecret", clientSecret);
+  // console.log("paymentIntent", paymentIntent);
+  // console.log("clientSecret", clientSecret);
 
   useEffect(() => {
     if (cartProducts) {

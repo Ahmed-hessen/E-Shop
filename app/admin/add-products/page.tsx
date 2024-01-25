@@ -3,7 +3,6 @@ import AddProductForm from "./AddProductForm";
 import FormWrap from "@/app/components/FormWrap";
 import { getCurrentUser } from "@/actions/getCurrentUser";
 import NullData from "@/app/components/NullData";
-import { Suspense } from "react";
 
 export default async function page() {
   const currentUser = await getCurrentUser();
@@ -19,9 +18,7 @@ export default async function page() {
     <div className="p-8">
       <Container>
         <FormWrap>
-          <Suspense>
-            <AddProductForm />
-          </Suspense>
+          <AddProductForm />
         </FormWrap>
       </Container>
     </div>

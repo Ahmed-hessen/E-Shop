@@ -3,7 +3,6 @@ import { getCurrentUser } from "@/actions/getCurrentUser";
 import NullData from "@/app/components/NullData";
 import getOrders from "@/actions/getOrders";
 import ManageOrdersClient from "./ManageOrdersClient";
-import { Suspense } from "react";
 
 export default async function ManageOrders() {
   const orders = await getOrders();
@@ -19,9 +18,7 @@ export default async function ManageOrders() {
   return (
     <div className="pt-8">
       <Container>
-        <Suspense>
-          <ManageOrdersClient orders={orders} />
-        </Suspense>
+        <ManageOrdersClient orders={orders} />
       </Container>
     </div>
   );

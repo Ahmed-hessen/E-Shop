@@ -3,7 +3,6 @@ import ManageProductsClient from "./ManageProductsClient";
 import getProducts from "@/actions/getProducts";
 import { getCurrentUser } from "@/actions/getCurrentUser";
 import NullData from "@/app/components/NullData";
-import { Suspense } from "react";
 
 export default async function ManageProducts() {
   const products = await getProducts({ category: null });
@@ -20,9 +19,7 @@ export default async function ManageProducts() {
   return (
     <div className="pt-8">
       <Container>
-        <Suspense>
-          <ManageProductsClient products={products} />
-        </Suspense>
+        <ManageProductsClient products={products} />
       </Container>
     </div>
   );
