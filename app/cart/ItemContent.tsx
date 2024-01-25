@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { truncateText } from "@/utils/truncate";
 import SetQuantity from "../components/products/SetQuantity";
-import toast from "react-hot-toast";
 
 interface ItemContenProps {
   item: CartProductType;
