@@ -1,4 +1,4 @@
-Certainly! Here's a version of your content with emojis:
+
 
 🌐 **Fullstack Electronic Ecommerce Project**
 
