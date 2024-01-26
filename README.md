@@ -76,22 +76,42 @@ Stripe
 ![Screenshot (83)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/28a5e21d-b98b-44b0-b7ae-efb233f43746)
 
 
+
+
+
 ![Screenshot (84)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/2cd09fa5-ec27-444f-9de3-61a02f57a457)
+
+
+
 
 
 ![Screenshot (85)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/321dc5e5-584f-4ecb-b119-90ea8a5e22b8)
 
 
+
+
+
 ![Screenshot (86)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/4284b8e0-0b8c-4a12-bd7e-9d2b7303a549)
+
+
+
 
 
 ![Screenshot (87)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/082ff6b3-ff5c-468f-910b-b332498352e1)
 
 
+
+
+
 ![Screenshot (88)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/2115a7f3-286c-471b-ad68-21e17083ddcd)
 
 
+
+
 ![Screenshot (89)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/3302d5ef-81a8-4eaf-899b-9fc0820fa1eb)
+
+
+
 
 
 ![Screenshot (90)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/f88a3dc9-9935-4e39-8d47-ea3312251503)
