@@ -1,4 +1,4 @@
-🌐 Fullstack Ecommerce Project
+🌐 Fullstack Electronic Ecommerce Project
 
 Overview
 This project is a Fullstack Ecommerce application built with Next.js, NextAuth, React, Prisma, Stripe, MongoDB, TypeScript, Tailwind CSS, and Material UI.
