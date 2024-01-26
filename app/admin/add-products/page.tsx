@@ -10,9 +10,9 @@ export default async function page() {
   if (!currentUser) {
     return <NullData title="Oops ! Access denied" />;
   }
-  if (currentUser.role !== "ADMIN") {
-    return <NullData title="Oops ! Access denied" />;
-  }
+  // if (currentUser.role !== "ADMIN") {
+  //   return <NullData title="Oops ! Access denied" />;
+  // }
 
   return (
     <div className="p-8">
