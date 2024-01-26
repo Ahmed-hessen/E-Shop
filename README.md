@@ -55,7 +55,7 @@ This project is a Fullstack Ecommerce application built with Next.js, NextAuth, 
 - ⚛️ Next.js
 
 - ⚛️ React
-- 
+
 - 🔒 NextAuth
 
 - 💻 TypeScript
