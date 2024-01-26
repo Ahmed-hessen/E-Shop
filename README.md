@@ -8,13 +8,14 @@ Landing Page:
 
 Navbar with logo, search bar, cart, and login/register menu.
 
-Admin dashboard upon login.
 
 Banner for sale.
 
-Display products 
+Display products:- Explore our curated selection of high-quality electronic products on the landing page.
 
-Footer
+
+Footer:🔌 Elevate Your Lifestyle with Cutting-edge Electronics: Discover a range of innovative electronic products designed to enhance your daily experiences.
+
 
 Cart :
 
