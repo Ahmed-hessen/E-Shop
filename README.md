@@ -53,15 +53,22 @@ Implemented all necessary API endpoints.
 Frontend:
 
 Next.js
+
 React
+
 NextAuth
+
 TypeScript
+
 Material UI
+
 Tailwind CSS
 
 Backend:
 
 Prisma
+
 MongoDB
+
 Stripe
 
