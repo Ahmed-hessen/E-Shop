@@ -1,34 +1,164 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+🌐 **Fullstack Electronic Ecommerce Project**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+**Overview**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is a Fullstack Ecommerce application built with Next.js, NextAuth, React, Prisma, Stripe, MongoDB, TypeScript, Tailwind CSS, and Material UI.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Features**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Home Page:**
 
-## Learn More
+- 🖼️ Navbar with logo, search bar, cart, and login/register menu.
 
-To learn more about Next.js, take a look at the following resources:
+- 🛍️ Banner for sale: Explore exclusive deals on cutting-edge electronics. Upgrade your lifestyle while stocks last!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📱 Display products: Explore our curated selection of high-quality electronic products on the landing page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- 🚀 Footer: Step into the Future of Innovation: Explore our collection of top-tier electronic products, carefully curated to elevate your lifestyle and redefine your tech experience.
 
-## Deploy on Vercel
+**Cart:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🛒 Cart page with the ability to add, remove, and edit product quantities.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 💳 Checkout using Stripe.
+
+**Admin Dashboard:**
+
+- 📊 Summary: Gain insights into the performance of your ecommerce platform with a summarized overview of orders and revenue over the last 7 days.
+
+- ➕ Add product: Add a new product with details such as name, category, price, brand, image, and color.
+
+- 🔄 Manage products: Change status, delete, or view orders related to a product.
+
+- 📦 Manage orders: View all orders and their details, mark orders as dispatched or delivered.
+
+**Authentication:**
+
+- 🔐 NextAuth for signup and login.
+
+- 📧🔒 Options for email/password and Google authentication.
+
+**Client Dashboard:**
+
+- 📄 View personal orders and their status.
+
+- 💬 Leave product reviews.
+
+**API Endpoints:**
+
+- 🛠 Implemented all necessary API endpoints.
+
+**Frontend:**
+
+- ⚛️ Next.js
+
+- ⚛️ React
+
+- 🔒 NextAuth
+
+- 💻 TypeScript
+
+- 🎨 Material UI
+
+- 🎨 Tailwind CSS
+
+**Backend:**
+
+- 🛠 Prisma
+
+- 🛠 MongoDB
+
+- 💳 Stripe
+
+
+
+
+![Screenshot (83)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/28a5e21d-b98b-44b0-b7ae-efb233f43746)
+
+
+
+
+
+
+
+
+
+
+![Screenshot (84)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/2cd09fa5-ec27-444f-9de3-61a02f57a457)
+
+
+
+
+
+
+
+
+
+
+![Screenshot (85)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/321dc5e5-584f-4ecb-b119-90ea8a5e22b8)
+
+
+
+
+
+
+
+
+
+
+![Screenshot (86)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/4284b8e0-0b8c-4a12-bd7e-9d2b7303a549)
+
+
+
+
+
+
+
+
+
+
+![Screenshot (87)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/082ff6b3-ff5c-468f-910b-b332498352e1)
+
+
+
+
+
+
+
+
+
+
+
+![Screenshot (88)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/2115a7f3-286c-471b-ad68-21e17083ddcd)
+
+
+
+
+
+
+
+
+
+![Screenshot (89)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/3302d5ef-81a8-4eaf-899b-9fc0820fa1eb)
+
+
+
+
+
+
+
+
+
+
+![Screenshot (90)](https://github.com/Ahmed-hessen/E-shop/assets/128532764/f88a3dc9-9935-4e39-8d47-ea3312251503)
+
+
+
+
+
+
+
+
+
