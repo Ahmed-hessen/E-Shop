@@ -30,7 +30,6 @@ export default function ManageProductsClient({
 }: ManageProductsClientProps) {
   const router = useRouter();
   const storage = getStorage(firebaseApp);
-  const currentUser = getCurrentUser();
 
   let rows: any = [];
   if (products) {
@@ -156,9 +155,6 @@ export default function ManageProductsClient({
         }
       };
       await handleImageDelete();
-      // if (currentUser.role !== "ADMIN") {
-      //   return <NullData title="Oops ! Access denied" />;
-      // }
       axios
         .delete(`/api/product/${id}`)
         .then((res) => {
