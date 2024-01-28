@@ -19,6 +19,8 @@ import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import { deleteObject, getStorage, ref } from "firebase/storage";
 import firebaseApp from "@/libs/firebase";
+import NullData from "@/app/components/NullData";
+import { getCurrentUser } from "@/actions/getCurrentUser";
 
 interface ManageProductsClientProps {
   products: Product[];
@@ -28,6 +30,7 @@ export default function ManageProductsClient({
 }: ManageProductsClientProps) {
   const router = useRouter();
   const storage = getStorage(firebaseApp);
+  const currentUser = getCurrentUser();
 
   let rows: any = [];
   if (products) {
@@ -153,6 +156,9 @@ export default function ManageProductsClient({
         }
       };
       await handleImageDelete();
+      // if (currentUser.role !== "ADMIN") {
+      //   return <NullData title="Oops ! Access denied" />;
+      // }
       axios
         .delete(`/api/product/${id}`)
         .then((res) => {

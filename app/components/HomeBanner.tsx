@@ -8,7 +8,7 @@ export default function HomeBanner() {
         <div className="mb-8 md:mb-0 text-center">
           <h1 className="text-4xl md:text-6xl text-white font-bold mb-4">
             {" "}
-            Summer Sale!
+            Winter Sale!
           </h1>
           <p className="text-lg md:text-xl mb-2 text-white">
             {" "}
