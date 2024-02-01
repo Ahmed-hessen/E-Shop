@@ -139,7 +139,17 @@ export default function ManageProductsClient({
 
   const handleDeleteProduct = useCallback(
     async (id: string, images: any[]) => {
-      toast("Deleting product , please wait....");
+      // Ask for confirmation before proceeding
+      const shouldDelete = window.confirm(
+        "Are you sure you want to delete this product?"
+      );
+
+      if (!shouldDelete) {
+        // User canceled deletion
+        return;
+      }
+
+      toast("Deleting product, please wait....");
 
       const handleImageDelete = async () => {
         try {
@@ -154,7 +164,9 @@ export default function ManageProductsClient({
           console.log("Deleting images error", error);
         }
       };
+
       await handleImageDelete();
+
       axios
         .delete(`/api/product/${id}`)
         .then((res) => {
